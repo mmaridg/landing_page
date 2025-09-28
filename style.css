@@ -1,0 +1,123 @@
+* {
+    body{
+    background-color: #F1E6D2;
+    }   
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: "Quicksand", sans-serif;
+    color: #5b2c27;
+    text-align: justify;
+    hr {
+    border: none;
+    height: 1px;
+    margin: 20px;
+    background-color: #d8c2bf;
+    }
+}
+
+h2 {
+    border: #5b2c27 1px solid;
+    padding: 5px;
+    margin: auto;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h3 {
+    padding: 5px;
+    margin: auto;
+    width: 800px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h4{
+    color: #F1E6D2;
+    background-color: #5b2c27;
+    padding: 5px;
+    margin: auto;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+p {
+        padding: 20px;
+    }
+
+footer {
+    span {
+        color: #5b2c27;
+    }
+}
+
+#menu {
+    background-color: #5b2c27;
+    padding: 10px;
+    margin: auto;
+    width: 800px;
+    border-radius: 7px;
+    a {
+        color: #f1e6d2af;
+    }
+   text-align: center;
+     
+}
+
+#bemvindo {
+    padding: 15px;
+    margin: auto;
+    width: 800px;
+    text-align: center;
+    p {
+        padding: 10px;
+        text-align: center;
+    }
+    h1{
+        font-family: "Imperial Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 70px;
+        padding: 1%;
+        text-align: center;
+    }
+}
+
+#sobremim {
+    padding:10px;
+    margin: auto;
+    width: 800px;
+    text-align: center;
+    span {
+        text-align: center;
+        width: 800;
+    }
+}
+
+#hobbies {
+    padding: 10;
+    margin: auto;
+    width: 800px;
+    text-align: center;
+    #idioma {
+        width: 200px;
+    }
+    #texto_idioma {
+        width: 400px;
+    }
+    span{
+        display: inline;
+    }
+}
+
+#rodape {
+    padding: 30px;
+    margin: auto;
+    width: 800px;
+    text-align: center;
+}
+

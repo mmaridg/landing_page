@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>  
+    
+    <link rel="shortcut icon" href="./../media/icon2.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="contato.css">
+
+</head>
+<body>
+    <br>
+    <div id="menu">
+        <span><a href="./../index.html">Home</a></span>
+        <span><a href="./../curriculo/curriculo.html">Currículo</a></span>
+        <span><a href="./../github/github.html">Github</a></span>
+        <span><a href="./../servicos/servicos.html">Serviços</a></span>
+    </div>
+
+    <h1>Contato</h1>
+    
+    <div id="form">
+    <form 
+        action="https://formsubmit.co/mmaridg@gmail.com"
+        method="POST"
+        class="form"
+    >
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name" required />
+
+        <br>
+        <br>
+
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" required />
+
+        <br>
+        <br>
+
+        <label for="tel">Telefone</label>
+        <input type="tel" name="Telefone" id="tel" required />
+
+        <br>
+        <br>
+
+        <label for="pf">Pessoa Física ou Jurídica</label>
+        <input type="text" name="pf" id="pf" required />
+
+        <br>
+        <br>
+
+        <label for="message"><b>Mensagem</b></label>
+        <p>Tipo de serviço que deseja, melhor horário de contato e o que deseja contratar!</p>
+        <br>
+        <textarea name="message" placeholder="Escreva aqui!" id="message" required></textarea>
+
+        <input type="hidden" name="_captcha" value="false"/>
+
+        <input 
+            type="hidden"
+            name="_next"
+            value="http://127.0.0.1:5500/contato/obrigado/obrigado.html"
+        />
+        <button type="submit">Enviar</button>
+    </form>
+    </div>
+
+</body>
+<footer>
+    <div id="rodape">
+    <hr>
+
+        <span><img src="./../media/wpp.png" alt="WhatsApp icon" width="20px"></span>
+        <span><a href="https://api.whatsapp.com/send/?phone=5573982011368&text&type=phone_number&app_absent=0" target="_blank">WhatsApp</a></span>
+
+        <span><img src="./../media/linkedin.png" alt="LinkeIn icon" width="20px"></span>
+        <span><a href="https://www.linkedin.com/in/mmaridg/" target="_blank">LinkedIn</a></span>
+
+        <span><img src="./../media/github.png" alt="GitHub icon" width="20px"></span>
+        <span><a href="https://github.com/mmaridg" target="_blank">GitHub</a></span>
+
+        <span><img src="./../media/mail.png" alt="Mail icon" width="20px"></span>
+        <span>mmaridg@gmail.com</span>
+    </div>
+</footer>
+</html>
